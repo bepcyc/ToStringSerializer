@@ -12,6 +12,7 @@ The serializer is useful for mocking runtime objects for unit-tests or just for 
 ##Usage
 
 Just checkout or add __Strings.java__ file into your project.
+Change LOCAL_PACKAGE_PREFIXES set in java files so it will contain only prefixes which are local for your project. Usually it's something like "com.mycompany."
 
 Usage example:
 
