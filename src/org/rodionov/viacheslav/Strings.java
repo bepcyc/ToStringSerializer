@@ -33,8 +33,7 @@ public final class Strings {
         private static final long serialVersionUID = 8025927834463125260L;
 
         {
-            this.add("com.bmw");
-            this.add("de.sulzer");
+            this.add("com.");
         }
     };
 
