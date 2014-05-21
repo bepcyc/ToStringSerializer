@@ -11,9 +11,9 @@ import java.util.Set;
 
 /**
  * @author Viacheslav Rodionov (bepcyc@gmail.com)
- *  
- * Class Strings contains toString method which provides JSON-like serialization
- * for any object.
+ * 
+ *         Class Strings contains toString method which provides JSON-like
+ *         serialization for any object.
  */
 public final class Strings {
 
@@ -86,7 +86,6 @@ public final class Strings {
         if (obj == null) {
             b.append(NULL_REPRESENTATION);
         } else {
-            // b.append("{\n");
             final Class<? extends Object> objClass = obj.getClass();
             Boolean hasGetters = false;
             for (final Method method : objClass.getMethods()) {
@@ -116,7 +115,6 @@ public final class Strings {
                     b.delete(b.length() - 3, b.length());
                 }
             }
-            // b.append("\n").append(indent);//.append("}");
         }
         return b.toString();
     }
