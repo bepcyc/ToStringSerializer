@@ -25,6 +25,15 @@ Usage example:
         System.out.println(Strings.toString(strList));
     }
 
+This snippet will provide an output like this:
+
+    {
+      { "Collection" : [ 
+       { "String" : "value1" }, 
+       { "String" : "value2" }
+      ] }
+    }
+
 
 ##Dependencies
 
